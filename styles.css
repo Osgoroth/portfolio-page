@@ -1,0 +1,163 @@
+:root {
+    --colour-dark: #1f374b;
+    --colour-1: #355C7D;
+    --colour-2: #725A7A;
+    --colour-3: #C56C86;
+    --colour-4: #FF7582;
+    
+    --font-colour-1: white;
+    
+}
+
+/* 
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Permanent Marker', cursive; 
+*/
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding: 75px;
+    
+}
+
+
+
+#navbar {
+    background-color: var(--colour-dark);
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#navbar ul {
+    min-width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10px;
+    height: 75px;
+}
+
+.nav-list li { 
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--font-colour-1);
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 2rem;
+    
+    
+}
+.nav-list a:hover {
+    
+    
+    background-color: var(--colour-3);
+    
+    
+}
+
+#welcome-section {
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, var(--colour-1) 0%, var(--colour-2) 10%, var(--colour-3) );
+    color: var(--font-colour-1);
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+#welcome-section p {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+#projects {
+    background-color: var(--colour-1);
+    height: 100vh;
+
+}
+
+.projects-header {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--font-colour-1);
+
+
+}   
+
+.project {
+    text-decoration: none;
+    color: var(--font-colour-1);
+    background: var(--colour-3);
+    border: 0;
+    border-radius: 2.5px;
+    
+    
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 3rem 2rem;
+    gap: 4rem;
+}
+
+.project-img {
+    width: 100%;
+    height: calc(100% - 5rem);
+    border-radius: 2.5px 2.5px 0 0;
+    
+}
+
+.project-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    
+}
+
+#contact {
+
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: var(--colour-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--font-colour-1);
+}
+
