@@ -9,6 +9,9 @@
     
 }
 
+.favicon {
+    color: var(--colour-2);
+}
 /* 
     font-family: 'Chakra Petch', sans-serif;
     font-family: 'Permanent Marker', cursive; 
