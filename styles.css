@@ -162,7 +162,12 @@ img {
 #contact {
     background-color: var(--colour-2);
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, var(--colour-1) 0%, var(--colour-2) 10%, var(--colour-3) );;
 }
 
 .contact-header {
