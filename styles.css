@@ -73,9 +73,7 @@ html {
     
     
 }
-.nav-list a:hover {
-    
-    
+.nav-list  li:hover {
     background-color: var(--colour-3);
     
     
@@ -128,7 +126,7 @@ h1 {
     
 }
 
-.project-card {
+.project-tile {
     max-height: 470px; 
 }
 
@@ -210,4 +208,47 @@ footer {
     font-size: 2rem;
     color: var(--font-colour-1);
 }
+
+@media (max-width: 768px){
+
+    .project-title {
+        font-size: 2rem;
+        padding-top: 2rem;
+        
+    }
+    .contact-container {
+        display: grid;
+        grid-template-columns: min-content min-content;
+        gap: 2rem;
+        
+        
+    }
+
+    .profile-link {
+        
+        font-size: 8rem;
+    }
+    #navbar {
+        justify-content: center;
+    }
+    nav .link-item{
+        font-size: 2rem;
+    }
+    footer {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact-container:last-child {
+        grid-column: 1 / 2;
+        
+    }
+    
+}
+
+@media (max-width: 576px){
+    
+
 
