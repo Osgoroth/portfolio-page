@@ -75,6 +75,7 @@ html {
 }
 .nav-list  li:hover {
     background-color: var(--colour-3);
+    transition: background-color 0.5s ease-out;
     
     
 }
@@ -112,7 +113,6 @@ h1 {
     font-size: 4rem;
     color: var(--font-colour-1);
 
-
 }   
 
 .project {
@@ -121,14 +121,15 @@ h1 {
     background: var(--colour-3);
     border: 0;
     border-radius: 2.5px;
-    
-    
-    
+
 }
 
-.project-tile {
-    max-height: 470px; 
+.project-tile:hover .code {
+    color: var(--colour-2);
+    
+  
 }
+
 
 .projects-grid {
     display: grid;
@@ -144,12 +145,8 @@ h1 {
     width: 100%;
     height: calc(100% - 7rem);
     max-height: 400px;
-   
     object-fit: cover;
-   
-    
     border-radius: 2.5px 2.5px 0 0;
-    
     
 }
 
@@ -160,8 +157,13 @@ img {
 .project-title {
     font-size: 2rem;
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 2rem 0.5rem;
     
+}
+
+.code {
+    color: var(--colour-3);
+    transition: color 0.3s ease-out;
 }
 
 #contact {
@@ -197,6 +199,12 @@ img {
 .profile-link {
     color: var(--font-colour-1);
     font-size: 6rem;
+    transition: transform 0.5s ease-out;
+}
+
+.profile-link:hover {
+    transform: translateY(10px);
+    
 }
 
 
@@ -251,8 +259,4 @@ footer {
     }
     
 }
-
-@media (max-width: 576px){
-    
-
 
