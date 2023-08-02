@@ -1,0 +1,243 @@
+$colour-dark: #1f374b;
+$colour-1: #355c7d;
+$colour-2: #725a7a;
+$colour-3: #c56c86;
+$colour-4: #ff7582;
+$font-colour-1: white;
+
+:root {
+  text-align: center;
+}
+body {
+  width: 100vw;
+}
+
+.favicon {
+  color: $colour-2;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding: 75px;
+}
+
+#navbar {
+  background-color: $colour-dark;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#navbar {
+  ul {
+    min-width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10px;
+    height: 75px;
+  }
+}
+
+.nav-list {
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.nav-list {
+  a {
+    text-decoration: none;
+    color: $font-colour-1;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 2rem;
+  }
+}
+.nav-list li:hover {
+  background-color: $colour-3;
+  transition: background-color 0.5s ease-out;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, $colour-1 0%, $colour-2 10%, $colour-3);
+  color: $font-colour-1;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+#welcome-section p {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+#projects {
+  background-color: $colour-1;
+  padding-bottom: 7rem;
+}
+
+.projects-header {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 4rem;
+  color: $font-colour-1;
+}
+
+.project {
+  text-decoration: none;
+  color: $font-colour-1;
+  background: $colour-3;
+  border: 0;
+  border-radius: 2.5px;
+}
+
+.project-tile:hover .code {
+  color: $colour-2;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: 1fr;
+  padding: 3rem 2rem;
+  grid-gap: 4rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.project-img {
+  width: 100%;
+  height: calc(100% - 7rem);
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 2.5px 2.5px 0 0;
+}
+
+img {
+  display: block;
+}
+
+.project-title {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0.5rem;
+}
+
+.code {
+  color: $colour-3;
+  transition: color 0.3s ease-out;
+}
+
+#contact {
+  background-color: $colour-2;
+  width: 100%;
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom right,
+    $colour-1 0%,
+    $colour-2 10%,
+    $colour-3
+  );
+}
+
+.contact-header {
+  font-size: 5rem;
+  color: $font-colour-1;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7rem 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 7rem;
+}
+
+.profile-link {
+  color: $font-colour-1;
+  font-size: 6rem;
+  transition: transform 0.5s ease-out;
+}
+
+.profile-link:hover {
+  transform: translateY(10px);
+}
+
+footer {
+  width: 100%;
+  height: 75px;
+  background-color: $colour-dark;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: $font-colour-1;
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: min-content min-content;
+    gap: 2rem;
+  }
+
+  .profile-link {
+    font-size: 8rem;
+  }
+  #navbar {
+    justify-content: center;
+  }
+  nav .link-item {
+    font-size: 2rem;
+  }
+  footer {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-container:last-child {
+    grid-column: 1 / 2;
+  }
+}
