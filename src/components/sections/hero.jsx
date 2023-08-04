@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div id="hero-wrapper">
-      <section id="hero" className="container-sm">
+      <section id="hero" className="container-lg">
         <h1>Hi, I&apos;m David</h1>
         <p>a budding web developer</p>
         <a

@@ -1,14 +1,17 @@
-import { BsHouse, BsList } from "react-icons/bs";
+import { BsList } from "react-icons/bs";
 import logo from "../dl-logo.svg";
 import { useRef, useState } from "react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [toggled, setToggled] = useState(false);
   const togglerRef = useRef(null);
 
   function navbarToggle() {
+    setToggled(!toggled);
     const navList = togglerRef.current;
     navList.classList.toggle("open");
+    navList.classList.toggle("toggled");
   }
 
   function scrollFunction() {
@@ -27,7 +30,7 @@ export default function Navbar() {
     <nav id="navbar" onScroll={scrollFunction}>
       <div
         id="navbar-scrolled-mask"
-        style={{ width: scrolled && "100%" }}
+        style={{ width: scrolled ? "100%" : toggled && "100%" }}
       ></div>
       <a id="logo-wrapper" href="#hero">
         <picture id="logo">
@@ -35,7 +38,12 @@ export default function Navbar() {
         </picture>
       </a>
       <BsList className="navbar-toggler" onClick={navbarToggle} />
-      <ul className="nav-list" id="nav-list" ref={togglerRef}>
+      <ul
+        className="nav-list"
+        id="nav-list"
+        ref={togglerRef}
+        // style={{ transform: toggled ? "translateX(0%)" : "translateX(100%)" }}
+      >
         <li>
           <a className="link-item" href="#about">
             About
