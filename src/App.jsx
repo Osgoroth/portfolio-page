@@ -48,7 +48,7 @@ const projects = [
     ],
     link: "https://benevolent-piroshki-ee3921.netlify.app/",
     image:
-      "https://github.com/Osgoroth/25-5-timer/assets/46662617/f2105af8-126d-477b-9dfd-67a8ccab708a",
+      "https://github.com/Osgoroth/25-5-timer/assets/46662617/022fa45e-1618-4d9b-a2d8-97426b22bc4e",
   },
   {
     title: "CALCULATOR",
