@@ -64,7 +64,7 @@ const projects = [
     skills: ["React", "useState", "useEffect", "HTML Audio"],
     link: "https://resilient-babka-232aa4.netlify.app/",
     image:
-      "https://github.com/Osgoroth/drum-machine/assets/46662617/726b0e56-33cd-4176-8a7e-9957a51e03ca",
+      "https://github.com/Osgoroth/drum-machine/assets/46662617/81c6dc9e-0039-4681-8aff-53bd075150c2",
   },
   {
     title: "MARKDOWN PREVIEWER",
