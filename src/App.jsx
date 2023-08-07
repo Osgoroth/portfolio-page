@@ -60,8 +60,8 @@ const projects = [
   },
   {
     title: "DRUM MACHINE",
-    desc: "Simple drum machine styled like a dj's touchpad.",
-    skills: ["React", "useState", "useEffect", "HTML Audio"],
+    desc: "Simple drum machine styled like Roland TR-909 from 1983.",
+    skills: ["React", "useState", "useEffect", "useRef", "HTML Audio"],
     link: "https://resilient-babka-232aa4.netlify.app/",
     image:
       "https://github.com/Osgoroth/drum-machine/assets/46662617/81c6dc9e-0039-4681-8aff-53bd075150c2",
