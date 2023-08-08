@@ -1,3 +1,11 @@
+// TODO: Follow BEM
+// .block {
+//   @at-root #{&}__element {
+//   }
+//   @at-root #{&}--modifier {
+//   }
+// }
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 $colour-primary-alt: #d90429;
@@ -17,7 +25,7 @@ $project-colour-4: #31081fff;
 // $project-colour-5: #912f56ff;
 
 :root {
-  text-align: center;
+  // text-align: center;
 }
 
 *,
@@ -232,23 +240,21 @@ h2 {
   }
 }
 
-#contacts-wrapper {
+.contacts__wrapper {
   background-color: $font-colour-primary;
   position: relative;
-  #contacts {
+  .contacts {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
 
-    .contact-header {
+    .contact__header {
       font-size: 5rem;
+      text-align: center;
       color: $font-colour-secondary;
-
       padding: 5rem 0;
     }
 
-    .contact-container {
+    .contact__container {
       display: flex;
       flex-direction: row;
       width: 75vw;
@@ -258,18 +264,18 @@ h2 {
       padding-bottom: 7rem;
     }
 
-    .profile-link {
+    .profile__link {
       color: $font-colour-secondary;
       font-size: 6rem;
       transition: transform 0.5s ease-out;
     }
 
-    .profile-link:hover {
+    .profile__link:hover {
       transform: translateY(10px);
     }
   }
 }
-#contacts-wrapper:after {
+.contacts__wrapper:after {
   content: "";
   height: 1rem;
   width: 100%;
@@ -322,12 +328,12 @@ h2 {
       }
     }
   }
-  #contacts-wrapper {
-    #contacts {
-      .contact-header {
+  .contacts__wrapper {
+    .contacts {
+      .contact__header {
         font-size: 3rem;
       }
-      .profile-link {
+      .profile__link {
         font-size: 4rem;
       }
     }

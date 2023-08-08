@@ -15,11 +15,11 @@ export default function About() {
             the weather permits.
           </p>
           <p>
-            I am currently seeking a junior web developer position. My goal is
-            to contribute my technical expertise and creative skills to a
-            collaborative team, which would allow me to further my knowledge and
-            grow in the field of web development to deliver impactful solutions
-            to meet the clients’ needs.
+            I am currently seeking a junior/graduate web developer position. My
+            goal is to contribute my technical expertise and creative skills to
+            a collaborative team, which would allow me to further my knowledge
+            and grow in the field of web development to deliver impactful
+            solutions to meet the clients’ needs.
           </p>
           <p>
             My love for web development started in secondary school when I took
