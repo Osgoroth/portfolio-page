@@ -77,35 +77,18 @@ const projects = [
   {
     title: "RANDOM QUOTE MACHINE",
     desc: "Fetches a random quote from the Quotable API and displays it on the screen, allowing the user to share the quote via a tweet.",
-    skills: ["React", "useState", "useEffect", "SASS", "Quotable API"],
+    skills: [
+      "React",
+      "useState",
+      "useEffect",
+      "Fetch API",
+      "SASS",
+      "Quotable API",
+    ],
     link: "https://delicate-hamster-ffee96.netlify.app/",
     image:
       "https://github.com/Osgoroth/random-quote-machine/assets/46662617/6006ffaa-aae9-49c4-a73a-b0868762a528",
   },
-  // {
-  //   title: "Personal Portfolio",
-  //   link: "https://github.com/Osgoroth/portfolio-page",
-  //   image:
-  //     "https://github.com/Osgoroth/portfolio-page/assets/46662617/edae18c1-fb5a-4908-8ffa-29f874aaa67e",
-  // },
-  // {
-  //   title: "Tribute page",
-  //   link: "https://github.com/Osgoroth/tribute-page",
-  //   image:
-  //     "https://user-images.githubusercontent.com/46662617/238393993-1d07fd1b-1b54-4814-bb28-82e6b41bcb4c.jpeg",
-  // },
-  // {
-  //   title: "Technical documentation page",
-  //   link: "https://github.com/Osgoroth/technical-documentation-page",
-  //   image:
-  //     "https://user-images.githubusercontent.com/46662617/233059941-d1bd9050-42d9-4287-8427-c89f06384827.jpg",
-  // },
-  // {
-  //   title: "Product landing page",
-  //   link: "https://github.com/Osgoroth/product-landing-page",
-  //   image:
-  //     "https://user-images.githubusercontent.com/46662617/233065291-3798a3a1-441b-40ea-95f4-b887e73a235b.jpg",
-  // },
 ];
 
 function App() {

@@ -1,4 +1,5 @@
 import ProjectArticle from "../project-article";
+import PropTypes from "prop-types";
 
 export default function Projects({ projects }) {
   return (
@@ -10,3 +11,7 @@ export default function Projects({ projects }) {
     </div>
   );
 }
+
+Projects.propTypes = {
+  projects: PropTypes.array.isRequired,
+};

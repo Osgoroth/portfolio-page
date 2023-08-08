@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function ProjectArticle({ title, desc, skills, link, image }) {
   return (
     <article className="container-flex py-5" key={title}>
@@ -40,3 +42,11 @@ export default function ProjectArticle({ title, desc, skills, link, image }) {
     </article>
   );
 }
+
+ProjectArticle.propTypes = {
+  title: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  skills: PropTypes.array.isRequired,
+  link: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+};

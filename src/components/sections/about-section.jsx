@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div id="about-wrapper">
-      <section id="about" className="container-lg">
+    <section id="about-wrapper">
+      <div id="about" className="container-lg">
         <div className="title">
           <h2>ABOUT</h2>
         </div>
@@ -29,7 +29,7 @@ export default function About() {
             web developer.
           </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
