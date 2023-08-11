@@ -20,6 +20,14 @@ const projects = [
       "https://github.com/Osgoroth/foodables-app/assets/46662617/cbeaacd3-99f5-43f5-8730-8503da30a721",
   },
   {
+    title: "🪚 Weather App 🪜",
+    desc: "A simple weather app to practice and learn new skills.",
+    skills: ["React", "TailwindCSS", "Headless UI", "WeatherAPI", "Vite"],
+    link: "https://github.com/Osgoroth/weather-app",
+    image:
+      "https://github.com/Osgoroth/weather-app/assets/46662617/bc672163-7c6a-4dc7-85da-7fd3d4cb8baa",
+  },
+  {
     title: "🪚 CAR-STATS 🪜",
     desc: "Car ‘showroom’ site for enthusiast.",
     skills: [
