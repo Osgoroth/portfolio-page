@@ -34,6 +34,7 @@ export default function ProjectArticle({ title, desc, skills, link, image }) {
                 src={image}
                 alt={`${title} image`}
                 className="project-image"
+                loading="lazy"
               />
             </picture>
           </div>
