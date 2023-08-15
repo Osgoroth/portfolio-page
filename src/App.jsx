@@ -3,7 +3,7 @@ import Hero from "./components/sections/hero";
 import Projects from "./components/sections/projects-section";
 import Contacts from "./components/sections/contacts-section";
 import About from "./components/sections/about-section";
-
+//
 const projects = [
   {
     title: "FOODABLES",
