@@ -16,14 +16,14 @@ const projects = [
       "ChakraUI",
     ],
     link: "https://foodables.app/",
-    image: "/src/images/foodables.png",
+    image: "/images/foodables.png",
   },
   {
     title: "🪚 Weather App 🪜",
     desc: "A simple weather app to practice and learn new skills.",
     skills: ["React", "TailwindCSS", "Headless UI", "WeatherAPI", "Vite"],
     link: "https://candid-concha-da6de0.netlify.app/",
-    image: "/src/images/weather-app.png",
+    image: "/images/weather-app.png",
   },
   {
     title: "🪚 CAR-STATS 🪜",
@@ -37,7 +37,7 @@ const projects = [
       "Supabase AUTH",
     ],
     link: "https://car-stats-testing.netlify.app/",
-    image: "/src/images/car-stats.png",
+    image: "/images/car-stats.png",
   },
   {
     title: "25-5 TIMER",
@@ -52,28 +52,28 @@ const projects = [
       "HTML Audio",
     ],
     link: "https://benevolent-piroshki-ee3921.netlify.app/",
-    image: "/src/images/25-5-timer.png",
+    image: "/images/25-5-timer.png",
   },
   {
     title: "CALCULATOR",
     desc: "Simple Javascript calculator",
     skills: ["React", "useState", "Bootstrap", "SASS", "RegEx"],
     link: "https://exquisite-clafoutis-0e3b16.netlify.app/",
-    image: "/src/images/calculator.png",
+    image: "/images/calculator.png",
   },
   {
     title: "DRUM MACHINE",
     desc: "Simple drum machine styled like Roland TR-909 from 1983.",
     skills: ["React", "useState", "useEffect", "useRef", "HTML Audio"],
     link: "https://resilient-babka-232aa4.netlify.app/",
-    image: "/src/images/drum-machine.png",
+    image: "/images/drum-machine.png",
   },
   {
     title: "MARKDOWN PREVIEWER",
     desc: "Lets the user type in markdown code and preview it in the bottom panel.",
     skills: ["React", "Bootstrap", "marked.js", "SASS"],
     link: "https://effortless-centaur-88c960.netlify.app/",
-    image: "/src/images/markdown-previewer.png",
+    image: "/images/markdown-previewer.png",
   },
   {
     title: "RANDOM QUOTE MACHINE",
@@ -87,7 +87,7 @@ const projects = [
       "Quotable API",
     ],
     link: "https://delicate-hamster-ffee96.netlify.app/",
-    image: "/src/images/random-quote.png",
+    image: "/images/random-quote.png",
   },
 ];
 
