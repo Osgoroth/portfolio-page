@@ -25,7 +25,7 @@ export default function About() {
             My love for web development started in secondary school when I took
             IT at GCSE level, although I took a different path after studying
             Computer Science at Universtity my passion for developing website
-            has resurged and I am now fully motivated to persue a career as a
+            has resurged and I am now fully commited to pursuing a career as a
             web developer.
           </p>
         </div>
