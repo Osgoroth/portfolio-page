@@ -6,7 +6,7 @@ import About from "./components/sections/about-section";
 
 const projects = [
   {
-    title: "FOODABLES",
+    title: "Foodables",
     desc: "Recipe app built with NextJS and ChakraUI",
     skills: [
       "NextJS",
@@ -19,14 +19,14 @@ const projects = [
     image: "/images/foodables.png",
   },
   {
-    title: "🪚 Weather App 🪜",
+    title: "Weather App",
     desc: "A simple weather app to practice and learn new skills.",
     skills: ["React", "TailwindCSS", "Headless UI", "WeatherAPI", "Vite"],
     link: "https://candid-concha-da6de0.netlify.app/",
     image: "/images/weather-app.png",
   },
   {
-    title: "🪚 CAR-STATS 🪜",
+    title: "Car-Stats",
     desc: "Car ‘showroom’ site for enthusiast.",
     skills: [
       "NextJS",
@@ -40,7 +40,7 @@ const projects = [
     image: "/images/car-stats.png",
   },
   {
-    title: "25-5 TIMER",
+    title: "25-5 Timer",
     desc: "A 'pomodoro' timer to help you work efficiently.",
     skills: [
       "React",
@@ -55,28 +55,28 @@ const projects = [
     image: "/images/25-5-timer.png",
   },
   {
-    title: "CALCULATOR",
+    title: "Calculator",
     desc: "Simple Javascript calculator",
     skills: ["React", "useState", "Bootstrap", "SASS", "RegEx"],
     link: "https://exquisite-clafoutis-0e3b16.netlify.app/",
     image: "/images/calculator.png",
   },
   {
-    title: "DRUM MACHINE",
+    title: "Drum Machine",
     desc: "Simple drum machine styled like Roland TR-909 from 1983.",
     skills: ["React", "useState", "useEffect", "useRef", "HTML Audio"],
     link: "https://resilient-babka-232aa4.netlify.app/",
     image: "/images/drum-machine.png",
   },
   {
-    title: "MARKDOWN PREVIEWER",
+    title: "Markdown Previewer",
     desc: "Lets the user type in markdown code and preview it in the bottom panel.",
     skills: ["React", "Bootstrap", "marked.js", "SASS"],
     link: "https://effortless-centaur-88c960.netlify.app/",
     image: "/images/markdown-previewer.png",
   },
   {
-    title: "RANDOM QUOTE MACHINE",
+    title: "Random Quote Machine",
     desc: "Fetches a random quote from the Quotable API and displays it on the screen, allowing the user to share the quote via a tweet.",
     skills: [
       "React",

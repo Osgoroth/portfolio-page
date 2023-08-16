@@ -6,6 +6,46 @@
 //   }
 // }
 
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 $colour-primary-alt: #d90429;
@@ -188,7 +228,7 @@ h2 {
   .projects-header {
     padding-top: 3rem;
     text-align: left;
-    font-size: 4rem;
+    font-size: 3rem;
     color: $colour-primary;
   }
 
@@ -209,6 +249,7 @@ h2 {
         font-size: 4rem;
         font-weight: 900;
         margin-bottom: 1rem;
+        text-transform: uppercase;
       }
     }
     .project-desc,
@@ -316,6 +357,12 @@ h2 {
     .left {
       width: 100%;
       margin-bottom: 2rem;
+
+      .project-title {
+        h2 {
+          font-size: 3rem;
+        }
+      }
     }
     .right {
       width: 100%;
