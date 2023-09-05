@@ -37,15 +37,7 @@ export default function Contacts() {
             <BsLinkedin />
           </a>
           <a
-            href="tel:+447460485234"
-            className="profile__link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsTelephoneFill />
-          </a>
-          <a
-            href="mailto:david-lucas-social@outlook.com"
+            href="mailto:david-charles-lucas@outlook.com"
             className="profile__link"
             target="_blank"
             rel="noreferrer"
