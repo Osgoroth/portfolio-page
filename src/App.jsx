@@ -21,7 +21,14 @@ const projects = [
   {
     title: "Weather App",
     desc: "A simple weather app to practice and learn new skills.",
-    skills: ["React", "TailwindCSS", "Headless UI", "WeatherAPI", "Vite"],
+    skills: [
+      "React",
+      "TailwindCSS",
+      "Headless UI",
+      "WeatherAPI",
+      "Vite",
+      "Geolocation API",
+    ],
     link: "https://candid-concha-da6de0.netlify.app/",
     image: "/images/weather-app.png",
   },
